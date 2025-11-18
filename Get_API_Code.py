@@ -12,19 +12,20 @@ def about():
 
 @app.route('/contact')
 def contact():
-    return "Contact us at instagram anytime macha !"
+    return "Contact us at instagram anytime !"
 
 @app.route('/products')
 def products():
-    return "neraiya iruku enga ooruku va macha."
+    return "Zoho,suit,supplychain master"
 
 @app.route('/services')
 def services():
-    return "Small chats including the best performance chats, tips, ideas"
+    return "Small chats including the best performance guidence chats, tips, ideas"
 
 @app.route('/hello/<name>')
 def hello(name):
-    return f"Hello, {name.capitalize()} ! ena pandra mamey ? inga ena solludhu ? Jessi Jessi nu solludha"
+    return f"Hello, {name.capitalize()} ! How you doing so far, Welcome to interesting world"
 
 if __name__ == '__main__':
+
     app.run(port=5001, debug=True)
